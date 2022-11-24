@@ -13,6 +13,9 @@ public class PhoneInfo {
 	private void Storage() {
     System.out.println("128");
 	}
+	private void m2() {
+     System.out.println("m2---------B");
+	}
 	 
 	public static void main(String[] args) {
 		PhoneInfo d = new PhoneInfo();
@@ -20,6 +23,7 @@ public class PhoneInfo {
 		d.phoneMieiNum();
 		d.camera();
 		d.Storage();
+		d.m2();
 	}
 	
 	
