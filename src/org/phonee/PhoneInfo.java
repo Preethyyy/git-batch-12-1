@@ -16,14 +16,18 @@ public class PhoneInfo {
 	private void m2() {
      System.out.println("m2---------B");
 	}
-	 
-	public static void main(String[] args) {
+	 private void m1() {
+		System.out.println("A--------m1");
+
+	}
+	 public static void main(String[] args) {
 		PhoneInfo d = new PhoneInfo();
 		d.PhoneName();
 		d.phoneMieiNum();
 		d.camera();
 		d.Storage();
 		d.m2();
+		d.m1();
 	}
 	
 	
