@@ -13,13 +13,17 @@ public class PhoneInfo {
 	private void Storage() {
     System.out.println("128");
 	}
-	 
+	 private void m1() {
+		System.out.println("A--------m1");
+
+	}
 	public static void main(String[] args) {
 		PhoneInfo d = new PhoneInfo();
 		d.PhoneName();
 		d.phoneMieiNum();
 		d.camera();
 		d.Storage();
+		d.m1();
 	}
 	
 	
